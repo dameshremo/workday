@@ -14,7 +14,7 @@ chrome_options.add_experimental_option("detach", True)
 
 driver = webdriver.Chrome(options=chrome_options)
 
-driver.get('https://wd12.myworkday.com/digitalocean/d/home.htmld')
+driver.get(os.getenv('WORKDAY_URL'))
 time.sleep(5)
 
 username_input = driver.find_element(By.ID, 'input28')
