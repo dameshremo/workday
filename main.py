@@ -67,8 +67,6 @@ month_prefix = month_prefix_mapping[today.month]
 # Calculate the dayCell ID
 day_cell_id = f"dayCell-{month_prefix}-{today.day}"
 
-print(f"Day Cell ID: {day_cell_id}")
-
 # Find the cell for today's date
 day_cell_xpath = f"//div[@data-automation-id='{day_cell_id}']"
 day_cell = wait.until(EC.presence_of_element_located((By.XPATH, day_cell_xpath)))
