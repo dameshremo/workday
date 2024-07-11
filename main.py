@@ -53,7 +53,7 @@ month_prefix_mapping = {
     4: 3,  # April
     5: 4,  # May
     6: 5,  # June
-    7: 6,  # July (based on your observations)
+    7: 6,  # July 
     8: 7,  # August
     9: 8,  # September
     10: 9,  # October
